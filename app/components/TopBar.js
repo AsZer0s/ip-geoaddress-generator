@@ -1,5 +1,5 @@
 import { Box, Link, Button, Flex, DropdownMenu } from '@radix-ui/themes';
-import { MoonIcon, SunIcon, GlobeIcon, GitHubLogoIcon } from '@radix-ui/react-icons';
+import { MoonIcon, SunIcon, GlobeIcon, Cube } from '@radix-ui/react-icons';
 import PropTypes from 'prop-types';
 
 export default function TopBar({ theme, setTheme }) {
@@ -34,9 +34,9 @@ export default function TopBar({ theme, setTheme }) {
                         <DropdownMenu.Item>English</DropdownMenu.Item>
                     </DropdownMenu.Content>
                 </DropdownMenu.Root>
-                <Link href="https://github.com/GuooGaii/ip-geoaddress-generator" target="_blank" rel="noopener noreferrer">
+                <Link href="https://hiyun.top" target="_blank" rel="noopener noreferrer">
                     <Button variant="soft" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '8px' }}>
-                        <GitHubLogoIcon size="3" />
+                        <Cube size="3" />
                     </Button>
                 </Link>
             </Flex>
